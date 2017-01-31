@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7A1432D1E41001E00DB7953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A1432C1E41001E00DB7953 /* main.m */; };
+		D7A143301E41001E00DB7953 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A1432F1E41001E00DB7953 /* AppDelegate.m */; };
+		D7A143381E41001E00DB7953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A143371E41001E00DB7953 /* Assets.xcassets */; };
+		D7A1433B1E41001E00DB7953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A143391E41001E00DB7953 /* LaunchScreen.storyboard */; };
+		D7A143441E41027100DB7953 /* BBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A143431E41027100DB7953 /* BBMainViewController.m */; };
+		D7A143471E4103D800DB7953 /* BBUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A143461E4103D800DB7953 /* BBUtility.m */; };
+		D7A1434B1E41053E00DB7953 /* BBAlarmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A1434A1E41053E00DB7953 /* BBAlarmModel.m */; };
+		D7A1434E1E4105F600DB7953 /* BBHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A1434D1E4105F600DB7953 /* BBHttpClient.m */; };
+		D7A143541E4106C700DB7953 /* NSArray+Manipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A143511E4106C700DB7953 /* NSArray+Manipulation.m */; };
+		D7A143551E4106C700DB7953 /* AFHTTPSessionManager+BFTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A143531E4106C700DB7953 /* AFHTTPSessionManager+BFTask.m */; };
+		D7D1FE011E410B3800C50C7D /* JSONValueTransformer+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D1FE001E410B3800C50C7D /* JSONValueTransformer+Utility.m */; };
+		D7D1FE051E410E8A00C50C7D /* BBAlarmViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D1FE041E410E8A00C50C7D /* BBAlarmViewCell.m */; };
+		D7D1FE081E41141C00C50C7D /* UIViewController+AddAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D1FE071E41141C00C50C7D /* UIViewController+AddAlarm.m */; };
+		DF1E4801423E5453F8096DD3 /* libPods-Bellbird.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A5ED2F65481B30A43A8697 /* libPods-Bellbird.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27A5ED2F65481B30A43A8697 /* libPods-Bellbird.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bellbird.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFC88F8C3140F21406BB3BA /* Pods-Bellbird.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bellbird.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bellbird/Pods-Bellbird.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A143281E41001E00DB7953 /* Bellbird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bellbird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A1432C1E41001E00DB7953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7A1432E1E41001E00DB7953 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7A1432F1E41001E00DB7953 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7A143371E41001E00DB7953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7A1433A1E41001E00DB7953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7A1433C1E41001E00DB7953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A143421E41027100DB7953 /* BBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMainViewController.h; sourceTree = "<group>"; };
+		D7A143431E41027100DB7953 /* BBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMainViewController.m; sourceTree = "<group>"; };
+		D7A143451E4103D800DB7953 /* BBUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBUtility.h; path = Bellbird/BBUtility.h; sourceTree = "<group>"; };
+		D7A143461E4103D800DB7953 /* BBUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBUtility.m; path = Bellbird/BBUtility.m; sourceTree = "<group>"; };
+		D7A143491E41053E00DB7953 /* BBAlarmModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAlarmModel.h; sourceTree = "<group>"; };
+		D7A1434A1E41053E00DB7953 /* BBAlarmModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAlarmModel.m; sourceTree = "<group>"; };
+		D7A1434C1E4105F600DB7953 /* BBHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHttpClient.h; sourceTree = "<group>"; };
+		D7A1434D1E4105F600DB7953 /* BBHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHttpClient.m; sourceTree = "<group>"; };
+		D7A143501E4106C700DB7953 /* NSArray+Manipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Manipulation.h"; sourceTree = "<group>"; };
+		D7A143511E4106C700DB7953 /* NSArray+Manipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Manipulation.m"; sourceTree = "<group>"; };
+		D7A143521E4106C700DB7953 /* AFHTTPSessionManager+BFTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+BFTask.h"; sourceTree = "<group>"; };
+		D7A143531E4106C700DB7953 /* AFHTTPSessionManager+BFTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+BFTask.m"; sourceTree = "<group>"; };
+		D7D1FDFF1E410B3800C50C7D /* JSONValueTransformer+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONValueTransformer+Utility.h"; sourceTree = "<group>"; };
+		D7D1FE001E410B3800C50C7D /* JSONValueTransformer+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONValueTransformer+Utility.m"; sourceTree = "<group>"; };
+		D7D1FE031E410E8A00C50C7D /* BBAlarmViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAlarmViewCell.h; sourceTree = "<group>"; };
+		D7D1FE041E410E8A00C50C7D /* BBAlarmViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAlarmViewCell.m; sourceTree = "<group>"; };
+		D7D1FE061E41141C00C50C7D /* UIViewController+AddAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AddAlarm.h"; sourceTree = "<group>"; };
+		D7D1FE071E41141C00C50C7D /* UIViewController+AddAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AddAlarm.m"; sourceTree = "<group>"; };
+		DF66204C915CF7CCB4D5C43B /* Pods-Bellbird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bellbird.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bellbird/Pods-Bellbird.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A143251E41001E00DB7953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1E4801423E5453F8096DD3 /* libPods-Bellbird.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7131E131A91F22ADE01E429 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27A5ED2F65481B30A43A8697 /* libPods-Bellbird.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A87AC39AA08C8FA678D6CBC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CFC88F8C3140F21406BB3BA /* Pods-Bellbird.debug.xcconfig */,
+				DF66204C915CF7CCB4D5C43B /* Pods-Bellbird.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7A1431F1E41001E00DB7953 = {
+			isa = PBXGroup;
+			children = (
+				D7A1432A1E41001E00DB7953 /* Bellbird */,
+				A7131E131A91F22ADE01E429 /* Frameworks */,
+				D7D1FE091E41234B00C50C7D /* Models */,
+				D7A143481E41052700DB7953 /* Networking */,
+				A87AC39AA08C8FA678D6CBC2 /* Pods */,
+				D7A143291E41001E00DB7953 /* Products */,
+				D7A1434F1E4106B400DB7953 /* Utilities */,
+				D7D1FE021E410E6300C50C7D /* Views */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A143291E41001E00DB7953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A143281E41001E00DB7953 /* Bellbird.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A1432A1E41001E00DB7953 /* Bellbird */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1432E1E41001E00DB7953 /* AppDelegate.h */,
+				D7A1432F1E41001E00DB7953 /* AppDelegate.m */,
+				D7A143371E41001E00DB7953 /* Assets.xcassets */,
+				D7A143391E41001E00DB7953 /* LaunchScreen.storyboard */,
+				D7A1433C1E41001E00DB7953 /* Info.plist */,
+				D7A1432B1E41001E00DB7953 /* Supporting Files */,
+				D7A143421E41027100DB7953 /* BBMainViewController.h */,
+				D7A143431E41027100DB7953 /* BBMainViewController.m */,
+			);
+			path = Bellbird;
+			sourceTree = "<group>";
+		};
+		D7A1432B1E41001E00DB7953 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1432C1E41001E00DB7953 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7A143481E41052700DB7953 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D7A143521E4106C700DB7953 /* AFHTTPSessionManager+BFTask.h */,
+				D7A143531E4106C700DB7953 /* AFHTTPSessionManager+BFTask.m */,
+				D7A1434C1E4105F600DB7953 /* BBHttpClient.h */,
+				D7A1434D1E4105F600DB7953 /* BBHttpClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		D7A1434F1E4106B400DB7953 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D7A143451E4103D800DB7953 /* BBUtility.h */,
+				D7A143461E4103D800DB7953 /* BBUtility.m */,
+				D7A143501E4106C700DB7953 /* NSArray+Manipulation.h */,
+				D7A143511E4106C700DB7953 /* NSArray+Manipulation.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		D7D1FE021E410E6300C50C7D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7D1FE061E41141C00C50C7D /* UIViewController+AddAlarm.h */,
+				D7D1FE071E41141C00C50C7D /* UIViewController+AddAlarm.m */,
+				D7D1FE031E410E8A00C50C7D /* BBAlarmViewCell.h */,
+				D7D1FE041E410E8A00C50C7D /* BBAlarmViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D7D1FE091E41234B00C50C7D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7D1FDFF1E410B3800C50C7D /* JSONValueTransformer+Utility.h */,
+				D7D1FE001E410B3800C50C7D /* JSONValueTransformer+Utility.m */,
+				D7A143491E41053E00DB7953 /* BBAlarmModel.h */,
+				D7A1434A1E41053E00DB7953 /* BBAlarmModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A143271E41001E00DB7953 /* Bellbird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A1433F1E41001E00DB7953 /* Build configuration list for PBXNativeTarget "Bellbird" */;
+			buildPhases = (
+				895A127DBC2CDA0024A3FAEA /* [CP] Check Pods Manifest.lock */,
+				D7A143241E41001E00DB7953 /* Sources */,
+				D7A143251E41001E00DB7953 /* Frameworks */,
+				D7A143261E41001E00DB7953 /* Resources */,
+				41B87F276EE020E302DC541E /* [CP] Embed Pods Frameworks */,
+				D6FF3B771886621DE61D1B03 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bellbird;
+			productName = Bellbird;
+			productReference = D7A143281E41001E00DB7953 /* Bellbird.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A143201E41001E00DB7953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Handshake;
+				TargetAttributes = {
+					D7A143271E41001E00DB7953 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D7A143231E41001E00DB7953 /* Build configuration list for PBXProject "Bellbird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A1431F1E41001E00DB7953;
+			productRefGroup = D7A143291E41001E00DB7953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A143271E41001E00DB7953 /* Bellbird */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A143261E41001E00DB7953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A1433B1E41001E00DB7953 /* LaunchScreen.storyboard in Resources */,
+				D7A143381E41001E00DB7953 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41B87F276EE020E302DC541E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bellbird/Pods-Bellbird-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		895A127DBC2CDA0024A3FAEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FF3B771886621DE61D1B03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bellbird/Pods-Bellbird-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A143241E41001E00DB7953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A1434E1E4105F600DB7953 /* BBHttpClient.m in Sources */,
+				D7A143441E41027100DB7953 /* BBMainViewController.m in Sources */,
+				D7D1FE051E410E8A00C50C7D /* BBAlarmViewCell.m in Sources */,
+				D7A143301E41001E00DB7953 /* AppDelegate.m in Sources */,
+				D7A1434B1E41053E00DB7953 /* BBAlarmModel.m in Sources */,
+				D7A143551E4106C700DB7953 /* AFHTTPSessionManager+BFTask.m in Sources */,
+				D7D1FE011E410B3800C50C7D /* JSONValueTransformer+Utility.m in Sources */,
+				D7D1FE081E41141C00C50C7D /* UIViewController+AddAlarm.m in Sources */,
+				D7A143471E4103D800DB7953 /* BBUtility.m in Sources */,
+				D7A1432D1E41001E00DB7953 /* main.m in Sources */,
+				D7A143541E4106C700DB7953 /* NSArray+Manipulation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7A143391E41001E00DB7953 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A1433A1E41001E00DB7953 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A1433D1E41001E00DB7953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7A1433E1E41001E00DB7953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A143401E41001E00DB7953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFC88F8C3140F21406BB3BA /* Pods-Bellbird.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bellbird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Handshake.Bellbird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7A143411E41001E00DB7953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF66204C915CF7CCB4D5C43B /* Pods-Bellbird.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bellbird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Handshake.Bellbird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A143231E41001E00DB7953 /* Build configuration list for PBXProject "Bellbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A1433D1E41001E00DB7953 /* Debug */,
+				D7A1433E1E41001E00DB7953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A1433F1E41001E00DB7953 /* Build configuration list for PBXNativeTarget "Bellbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A143401E41001E00DB7953 /* Debug */,
+				D7A143411E41001E00DB7953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7A143201E41001E00DB7953 /* Project object */;
+}

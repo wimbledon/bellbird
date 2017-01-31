@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Bolts" "${PODS_ROOT}/Headers/Public/JSONModel" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/SCLAlertView-Objective-C" "${PODS_ROOT}/Headers/Public/SSPullToRefresh" "${PODS_ROOT}/Headers/Public/SWTableViewCell" "${PODS_ROOT}/Headers/Public/TWMessageBarManager"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" "$PODS_CONFIGURATION_BUILD_DIR/Bolts" "$PODS_CONFIGURATION_BUILD_DIR/JSONModel" "$PODS_CONFIGURATION_BUILD_DIR/Masonry" "$PODS_CONFIGURATION_BUILD_DIR/SCLAlertView-Objective-C" "$PODS_CONFIGURATION_BUILD_DIR/SSPullToRefresh" "$PODS_CONFIGURATION_BUILD_DIR/SWTableViewCell" "$PODS_CONFIGURATION_BUILD_DIR/TWMessageBarManager"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/Bolts" -isystem "${PODS_ROOT}/Headers/Public/JSONModel" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/SCLAlertView-Objective-C" -isystem "${PODS_ROOT}/Headers/Public/SSPullToRefresh" -isystem "${PODS_ROOT}/Headers/Public/SWTableViewCell" -isystem "${PODS_ROOT}/Headers/Public/TWMessageBarManager"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"Bolts" -l"JSONModel" -l"Masonry" -l"SCLAlertView-Objective-C" -l"SSPullToRefresh" -l"SWTableViewCell" -l"TWMessageBarManager" -framework "Accelerate" -framework "AudioToolbox" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
