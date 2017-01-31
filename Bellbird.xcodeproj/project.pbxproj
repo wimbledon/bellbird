@@ -35,8 +35,8 @@
 		D7A1433C1E41001E00DB7953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7A143421E41027100DB7953 /* BBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBMainViewController.h; sourceTree = "<group>"; };
 		D7A143431E41027100DB7953 /* BBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBMainViewController.m; sourceTree = "<group>"; };
-		D7A143451E4103D800DB7953 /* BBUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBUtility.h; path = Bellbird/BBUtility.h; sourceTree = "<group>"; };
-		D7A143461E4103D800DB7953 /* BBUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBUtility.m; path = Bellbird/BBUtility.m; sourceTree = "<group>"; };
+		D7A143451E4103D800DB7953 /* BBUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBUtility.h; sourceTree = "<group>"; };
+		D7A143461E4103D800DB7953 /* BBUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBUtility.m; sourceTree = "<group>"; };
 		D7A143491E41053E00DB7953 /* BBAlarmModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAlarmModel.h; sourceTree = "<group>"; };
 		D7A1434A1E41053E00DB7953 /* BBAlarmModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAlarmModel.m; sourceTree = "<group>"; };
 		D7A1434C1E4105F600DB7953 /* BBHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHttpClient.h; sourceTree = "<group>"; };
@@ -108,14 +108,14 @@
 		D7A1432A1E41001E00DB7953 /* Bellbird */ = {
 			isa = PBXGroup;
 			children = (
+				D7A1432B1E41001E00DB7953 /* Supporting Files */,
 				D7A1432E1E41001E00DB7953 /* AppDelegate.h */,
 				D7A1432F1E41001E00DB7953 /* AppDelegate.m */,
 				D7A143371E41001E00DB7953 /* Assets.xcassets */,
-				D7A143391E41001E00DB7953 /* LaunchScreen.storyboard */,
-				D7A1433C1E41001E00DB7953 /* Info.plist */,
-				D7A1432B1E41001E00DB7953 /* Supporting Files */,
 				D7A143421E41027100DB7953 /* BBMainViewController.h */,
 				D7A143431E41027100DB7953 /* BBMainViewController.m */,
+				D7A1433C1E41001E00DB7953 /* Info.plist */,
+				D7A143391E41001E00DB7953 /* LaunchScreen.storyboard */,
 			);
 			path = Bellbird;
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			children = (
 				D7A1432C1E41001E00DB7953 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D7A143481E41052700DB7953 /* Networking */ = {
@@ -136,7 +136,7 @@
 				D7A1434C1E4105F600DB7953 /* BBHttpClient.h */,
 				D7A1434D1E4105F600DB7953 /* BBHttpClient.m */,
 			);
-			name = Networking;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		D7A1434F1E4106B400DB7953 /* Utilities */ = {
@@ -147,29 +147,29 @@
 				D7A143501E4106C700DB7953 /* NSArray+Manipulation.h */,
 				D7A143511E4106C700DB7953 /* NSArray+Manipulation.m */,
 			);
-			name = Utilities;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		D7D1FE021E410E6300C50C7D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D7D1FE061E41141C00C50C7D /* UIViewController+AddAlarm.h */,
-				D7D1FE071E41141C00C50C7D /* UIViewController+AddAlarm.m */,
 				D7D1FE031E410E8A00C50C7D /* BBAlarmViewCell.h */,
 				D7D1FE041E410E8A00C50C7D /* BBAlarmViewCell.m */,
+				D7D1FE061E41141C00C50C7D /* UIViewController+AddAlarm.h */,
+				D7D1FE071E41141C00C50C7D /* UIViewController+AddAlarm.m */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D7D1FE091E41234B00C50C7D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D7D1FDFF1E410B3800C50C7D /* JSONValueTransformer+Utility.h */,
-				D7D1FE001E410B3800C50C7D /* JSONValueTransformer+Utility.m */,
 				D7A143491E41053E00DB7953 /* BBAlarmModel.h */,
 				D7A1434A1E41053E00DB7953 /* BBAlarmModel.m */,
+				D7D1FDFF1E410B3800C50C7D /* JSONValueTransformer+Utility.h */,
+				D7D1FE001E410B3800C50C7D /* JSONValueTransformer+Utility.m */,
 			);
-			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +316,7 @@
 				D7A1433A1E41001E00DB7953 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
