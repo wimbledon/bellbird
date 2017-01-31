@@ -11,7 +11,6 @@ target 'Bellbird' do
 	pod 'AFNetworking'
 	pod 'SCLAlertView-Objective-C'
     pod 'TWMessageBarManager'
-    pod 'Masonry'
     pod 'SSPullToRefresh'
     pod 'SWTableViewCell'
 end

@@ -21,7 +21,6 @@ PODS:
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
   - JSONModel (1.7.0)
-  - Masonry (1.0.2)
   - SCLAlertView-Objective-C (1.1.0)
   - SSPullToRefresh (1.2.4)
   - SWTableViewCell (0.3.7)
@@ -31,7 +30,6 @@ DEPENDENCIES:
   - AFNetworking
   - Bolts
   - JSONModel
-  - Masonry
   - SCLAlertView-Objective-C
   - SSPullToRefresh
   - SWTableViewCell
@@ -41,12 +39,11 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
-  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   SCLAlertView-Objective-C: 349a894d4e1d1dbf14d443da784c6ca1e92c78d2
   SSPullToRefresh: 369e862c1d6528c7a354fc85cd4763d4e670e9af
   SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
   TWMessageBarManager: fd84e7948ba7968a2b5d9454859135761214ec56
 
-PODFILE CHECKSUM: dc946b746cb7e91a117ade75f2fa9a69dbf6ed80
+PODFILE CHECKSUM: a4387dd4184c43235c3a13a52895b883b7b572af
 
 COCOAPODS: 1.1.1
